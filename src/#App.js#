@@ -4,6 +4,7 @@ import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
 firebase.initializeApp({
     apiKey: "AIzaSyD5-Ow8IgegDpMKcKIueP4JRL_8XnK1hg4",
     authDomain: "chat-room-0323.firebaseapp.com",
